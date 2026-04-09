@@ -237,6 +237,125 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Attractions Section */}
+      <section className="relative z-10 py-24 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-balance">Достопримечательности</h2>
+            <p className="text-xl text-white/80 max-w-3xl mx-auto text-pretty">
+              Каждый уголок Монако — это история, роскошь и незабываемые виды. Вот главные места, которые вы посетите.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Скала Монако */}
+            <div className="rounded-2xl overflow-hidden bg-black/20 ring-1 ring-white/15 backdrop-blur group cursor-pointer">
+              <div className="relative h-56 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/d627236f-deae-4017-9ffc-9a315def8726/files/7b1b5bb5-eaea-499d-aa49-a115cc046fbd.jpg"
+                  alt="Скала Монако"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4">
+                  <span className="px-3 py-1 bg-white/20 backdrop-blur rounded-full text-xs font-medium ring-1 ring-white/30">История</span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Скала Монако</h3>
+                <p className="text-white/70 text-sm leading-relaxed">Дворец Гримальди, Собор Святого Николая и старинные пушки с панорамным видом на Средиземное море.</p>
+              </div>
+            </div>
+
+            {/* Океанографический музей */}
+            <div className="rounded-2xl overflow-hidden bg-black/20 ring-1 ring-white/15 backdrop-blur group cursor-pointer">
+              <div className="relative h-56 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/d627236f-deae-4017-9ffc-9a315def8726/files/95d9cfd4-af9b-4b7c-bf71-a25ba81c7b5b.jpg"
+                  alt="Океанографический музей"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4">
+                  <span className="px-3 py-1 bg-white/20 backdrop-blur rounded-full text-xs font-medium ring-1 ring-white/30">Наука</span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Океанографический музей</h3>
+                <p className="text-white/70 text-sm leading-relaxed">Один из лучших океанариумов мира, основанный князем Альбером I на краю отвесной скалы над морем.</p>
+              </div>
+            </div>
+
+            {/* Трасса Ф1 */}
+            <div className="rounded-2xl overflow-hidden bg-black/20 ring-1 ring-white/15 backdrop-blur group cursor-pointer">
+              <div className="relative h-56 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/d627236f-deae-4017-9ffc-9a315def8726/files/28ea44b1-d54b-4f63-9a43-d7e68386ba6c.jpg"
+                  alt="Трасса Формулы-1"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4">
+                  <span className="px-3 py-1 bg-white/20 backdrop-blur rounded-full text-xs font-medium ring-1 ring-white/30">Адреналин</span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Трасса «Формулы-1»</h3>
+                <p className="text-white/70 text-sm leading-relaxed">Легендарный городской автодром: тоннель, шпильки у казино и набережная с яхтами — улицы, ставшие историей.</p>
+              </div>
+            </div>
+
+            {/* Казино Монте-Карло */}
+            <div className="rounded-2xl overflow-hidden bg-black/20 ring-1 ring-white/15 backdrop-blur group cursor-pointer">
+              <div className="relative h-56 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/d627236f-deae-4017-9ffc-9a315def8726/files/89b656ca-ebf8-4984-84b3-af19a3e08995.jpg"
+                  alt="Казино Монте-Карло"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4">
+                  <span className="px-3 py-1 bg-white/20 backdrop-blur rounded-full text-xs font-medium ring-1 ring-white/30">Роскошь</span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Казино Монте-Карло</h3>
+                <p className="text-white/70 text-sm leading-relaxed">Символ Монако — великолепный дворец эпохи Бель-Эпок, который притягивает весь мировой бомонд с 1863 года.</p>
+              </div>
+            </div>
+
+            {/* Японский сад */}
+            <div className="rounded-2xl overflow-hidden bg-black/20 ring-1 ring-white/15 backdrop-blur group cursor-pointer">
+              <div className="relative h-56 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/d627236f-deae-4017-9ffc-9a315def8726/files/a8e959b1-003f-4a1e-a671-2a2810adbfe6.jpg"
+                  alt="Японский сад"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4">
+                  <span className="px-3 py-1 bg-white/20 backdrop-blur rounded-full text-xs font-medium ring-1 ring-white/30">Природа</span>
+                </div>
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Японский сад</h3>
+                <p className="text-white/70 text-sm leading-relaxed">Оазис тишины в центре шумного Монте-Карло: пруды с карпами кои, бамбук и каменные фонари у побережья моря.</p>
+              </div>
+            </div>
+
+            {/* CTA Card */}
+            <div className="rounded-2xl bg-white/5 ring-1 ring-white/15 backdrop-blur p-8 flex flex-col items-center justify-center text-center gap-6">
+              <Icon name="MapPin" size={40} className="text-white/50" />
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Хотите увидеть всё?</h3>
+                <p className="text-white/70 text-sm leading-relaxed">Забронируйте тур и мы проведём вас по всем знаковым местам Монако.</p>
+              </div>
+              <Button className="bg-white text-black hover:bg-white/90 rounded-full px-8">Забронировать тур</Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="relative z-10 py-24 px-6">
         <div className="max-w-7xl mx-auto">
